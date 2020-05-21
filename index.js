@@ -192,9 +192,8 @@ class Student extends Lambdasian{
   }
 
   listSubjects(){
-    let string = "Loving ";
-    string += this.favSubjects.join(", ") + "!";
-    return string;
+    //return "Loving " + this.favSubjects.join(", ") + "!";
+    return `Loving ${this.favSubjects.join(", ")}!`;
   }
 
   
